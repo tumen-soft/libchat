@@ -10,6 +10,7 @@
 
 #include <arpa/inet.h>  //inet_addr 
 #include <unistd.h>  //close(), fread()
+#include <stdio.h>
 #define MAXLINE 1024
 #define PORT 8080 
 
