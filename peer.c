@@ -4,7 +4,7 @@
 
 
 
-int createSocket(){
+int _createSocket(){
         int sock=socket(AF_INET, SOCK_STREAM, 0);
         //if(sock)
         //std::cout <<  " fd " << sock << std::endl;
